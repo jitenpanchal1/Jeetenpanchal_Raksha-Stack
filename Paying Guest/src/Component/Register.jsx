@@ -72,7 +72,7 @@ function Register() {
             })
             setmsg("")
             setmsg2("User registered successfully. Redirecting...")
-            navigate("/login")
+            navigate("/")
             return true
         }
     }
@@ -124,7 +124,7 @@ function Register() {
                 <p className="text-sm text-gray-600 mt-4 text-center">
                     If you already registered, go to{" "}
                     <Link
-                        to="/login"
+                        to="/"
                         className="text-indigo-600 font-semibold hover:underline hover:text-indigo-800 transition duration-200"
                     >
                         Log in page

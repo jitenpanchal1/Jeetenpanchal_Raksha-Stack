@@ -1,22 +1,30 @@
 import { createBrowserRouter } from "react-router";
 import Register from "../Component/Register";
 import Login from "../Component/Login";
+import Home from "../Component/Home";
 
 const Mainroute = createBrowserRouter([
     {
         path: "/",
         element:
             <>
-                <Register />
+                <Login />
             </>
     },
     {
-        path: "/login",
+        path: "/register",
         element:
             <>
-                <Login />
+                <Register />
             </>
 
+    },
+    {
+        path: "/default",
+        element:
+            <>
+                <Home />
+            </>
     }
 ])
 
