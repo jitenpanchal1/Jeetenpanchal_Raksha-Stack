@@ -63,10 +63,10 @@ function Login() {
             Useremail: "",
             UserPassword: ""
         })
-        setTimeout(() => {
-            navigate("/default")
-        }, 2000);
 
+        setTimeout(() => {
+            navigate("/header")
+        }, 2000);
     }
 
     return (
