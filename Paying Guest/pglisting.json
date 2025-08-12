@@ -1,0 +1,34 @@
+{
+  "pglistings": [
+    {
+      "id": 1,
+      "name": "Sunrise Paying Guest",
+      "location": "No. 12, MG Road, Bangalore, Karnataka - 560001",
+      "facilities": ["WiFi", "Laundry", "24x7 Water", "CCTV Security"],
+      "pricing": 6500,
+      "image": "https://via.placeholder.com/400x300?text=Sunrise+PG",
+      "contactNumber": "+91 9876543210",
+      "email": "sunrisepg@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Green Leaf PG",
+      "location": "Plot No. 45, FC Road, Pune, Maharashtra - 411005",
+      "facilities": ["Food Included", "AC Rooms", "Housekeeping"],
+      "pricing": 8000,
+      "image": "https://via.placeholder.com/400x300?text=Green+Leaf+PG",
+      "contactNumber": "+91 9123456780",
+      "email": "greenleafpg@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Comfort Stay PG",
+      "location": "H.No. 8-2-123, Banjara Hills, Hyderabad, Telangana - 500034",
+      "facilities": ["Non-AC Rooms", "Gym Access", "Parking"],
+      "pricing": 5500,
+      "image": "https://via.placeholder.com/400x300?text=Comfort+Stay+PG",
+      "contactNumber": "+91 9988776655",
+      "email": "comfortstaypg@gmail.com"
+    }
+  ]
+}

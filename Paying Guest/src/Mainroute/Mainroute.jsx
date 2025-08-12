@@ -3,10 +3,13 @@ import Register from "../Component/Register";
 import Login from "../Component/Login";
 import Home from "../Component/Home";
 import Header from "../Component/Header";
+import Allcomponent from "../Component/Allcomponent";
+import Protectroute from "../protect/Protectroute";
+import Pglisting from "../Component/Pglisting";
 
 const Mainroute = createBrowserRouter([
     {
-        path: "/",
+        path: "/login",
         element:
             <>
                 <Login />
@@ -21,11 +24,42 @@ const Mainroute = createBrowserRouter([
 
     },
     {
-        path: "/header",
+        path: "/",
         element:
             <>
-                <Header />
-            </>
+                <Protectroute>
+                    <Allcomponent />
+                </Protectroute>
+            </>,
+        children: [
+            {
+                index: true,
+                element:
+                    <>
+                        <Protectroute>
+                            <Home />
+                        </Protectroute>
+                    </>
+            },
+            {
+                path: "home",
+                element:
+                    <>
+                        <Protectroute>
+                            <Home />
+                        </Protectroute>
+                    </>
+            },
+            {
+                path: "pglistning",
+                element:
+                    <>
+                        <Protectroute>
+                            <Pglisting />
+                        </Protectroute>
+                    </>
+            }
+        ]
     }
 ])
 

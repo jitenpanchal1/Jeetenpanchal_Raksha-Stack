@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { fetchuser } from '../Reduxwork/AdduserSlice'
+import { fetchuser, setStatus } from '../Reduxwork/AdduserSlice'
 import { Link, useNavigate } from 'react-router'
 import ReuseInput from '../ReuseInput'
 import "../Css/Login.css"
@@ -65,7 +65,8 @@ function Login() {
         })
 
         setTimeout(() => {
-            navigate("/header")
+            diapach(setStatus(true))
+            navigate("/")
         }, 2000);
     }
 
