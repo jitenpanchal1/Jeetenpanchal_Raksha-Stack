@@ -1,39 +1,55 @@
-.animated-bg {
-  background: linear-gradient(-45deg, #6a11cb, #2575fc, #ff6a00, #ee0979);
-  background-size: 400% 400%;
-  animation: gradientMove 12s ease infinite;
+/* Background Image + Zoom Effect */
+.bg-image {
+  background-image: url("https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: absolute;
   width: 100%;
   height: 100%;
+  animation: zoomIn 15s ease-in-out infinite alternate;
   z-index: 0;
 }
 
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.08);
+  }
 }
 
-.animate-fadeIn {
+/* Glassmorphism Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Fade In + Up Animation */
+.animate-fadeUp {
   opacity: 0;
-  animation: fadeIn 1.5s ease forwards;
+  transform: translateY(30px);
+  animation: fadeUp 1.2s ease forwards;
 }
 
-.animate-fadeIn.delay-200 {
+.animate-fadeUp.delay-200 {
   animation-delay: 0.2s;
 }
 
-.animate-fadeIn.delay-400 {
+.animate-fadeUp.delay-400 {
   animation-delay: 0.4s;
 }
 
-@keyframes fadeIn {
+@keyframes fadeUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
 }
+

@@ -6,7 +6,8 @@ import store from './Reduxwork/Store'
 import { RouterProvider } from 'react-router'
 import Mainroute from './Mainroute/Mainroute'
 
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 createRoot(document.getElementById('root')).render(
     <Provider store={store}>

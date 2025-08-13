@@ -1,8 +1,41 @@
-/* Slide down animation for mobile menu */
+/* Hover underline for nav links */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #facc15; /* Tailwind yellow-400 */
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Primary Button Style (matches hero section) */
+.btn-primary {
+  background: #facc15;
+  color: #000;
+  padding: 0.4rem 1rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Darker shadow for light backgrounds */
+}
+.btn-primary:hover {
+  background: #eab308;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
+/* Slide Down Animation for Mobile Menu */
 @keyframes slideDown {
   0% { opacity: 0; transform: translateY(-10px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 .animate-slideDown {
-  animation: slideDown 0.3s ease forwards;
+  animation: slideDown 0.4s ease forwards;
 }

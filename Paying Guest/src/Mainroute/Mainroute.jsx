@@ -54,9 +54,9 @@ const Mainroute = createBrowserRouter([
                 path: "pglistning",
                 element:
                     <>
-                        <Protectroute>
+                        {/* <Protectroute> */}
                             <Pglisting />
-                        </Protectroute>
+                        {/* </Protectroute> */}
                     </>
             }
         ]
