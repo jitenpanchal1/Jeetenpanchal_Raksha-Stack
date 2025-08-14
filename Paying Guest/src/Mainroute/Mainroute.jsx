@@ -6,6 +6,7 @@ import Header from "../Component/Header";
 import Allcomponent from "../Component/Allcomponent";
 import Protectroute from "../protect/Protectroute";
 import Pglisting from "../Component/Pglisting";
+import AboutUs from "../Component/Aboutus";
 
 const Mainroute = createBrowserRouter([
     {
@@ -45,9 +46,9 @@ const Mainroute = createBrowserRouter([
                 path: "home",
                 element:
                     <>
-                        <Protectroute>
-                            <Home />
-                        </Protectroute>
+                        {/* <Protectroute> */}
+                        <Home />
+                        {/* </Protectroute> */}
                     </>
             },
             {
@@ -55,8 +56,15 @@ const Mainroute = createBrowserRouter([
                 element:
                     <>
                         {/* <Protectroute> */}
-                            <Pglisting />
+                        <Pglisting />
                         {/* </Protectroute> */}
+                    </>
+            },
+            {
+                path: "aboutus",
+                element:
+                    <>
+                        <AboutUs />
                     </>
             }
         ]
