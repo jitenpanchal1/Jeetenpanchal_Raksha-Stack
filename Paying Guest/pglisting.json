@@ -11,7 +11,7 @@
         "Laundry",
         "24x7 Security"
       ],
-      "contact": "+91 9876543210",
+      "contactNumber": "+91 9876543210",
       "email": "contact@sunrisepg.com",
       "image": "https://i.pinimg.com/originals/6e/31/a6/6e31a6ece8fb22e315e88a6306bdc1cc.jpg"
     },
@@ -26,7 +26,7 @@
         "Housekeeping",
         "Parking"
       ],
-      "contact": "+91 9123456780",
+      "contactNumber": "+91 9123456780",
       "email": "info@greenviewpg.com",
       "image": "https://images.unsplash.com/photo-1613977257363-707ba9348227"
     },
@@ -41,7 +41,7 @@
         "Gym",
         "CCTV"
       ],
-      "contact": "+91 9988776655",
+      "contactNumber": "+91 9988776655",
       "email": "hello@blueheavenpg.com",
       "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
     },
@@ -158,10 +158,8 @@
         "Laundry",
         "Housekeeping"
       ],
-      "contact": {
-        "phone": "+91 98765 43210",
-        "email": "sunshinepg@example.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2024-04/PG%20Tech.jpg"
     },
     {
@@ -175,10 +173,8 @@
         "2 Meals",
         "Gym Access"
       ],
-      "contact": {
-        "phone": "+91 91234 56789",
-        "email": "comfortstay@example.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://asset-cdn.stanzaliving.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1641209422/Website/CMS-Uploads/dgjaswce8wmaejvfhnua.jpg"
     },
     {
@@ -192,10 +188,8 @@
         "Power Backup",
         "Recreation Room"
       ],
-      "contact": {
-        "phone": "+91 99887 66554",
-        "email": "greennest@example.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://content3.jdmagicbox.com/v2/comp/ahmedabad/h8/079pxx79.xx79.240522154411.v4h8/catalogue/the-social-sphere-navrangpura-ahmedabad-paying-guest-accommodations-for-girl-student-g9ym3sli8l.jpg"
     },
     {
@@ -209,10 +203,8 @@
         "Attached Bathroom",
         "24/7 Security"
       ],
-      "contact": {
-        "phone": "+91 90123 45678",
-        "email": "urbanliving@example.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://content.jdmagicbox.com/comp/guwahati/t1/9999px361.x361.240417190102.s2t1/catalogue/xpfyt51xu41ctsd-3q8095evz8.jpg"
     },
     {
@@ -226,10 +218,8 @@
         "AC Rooms",
         "Swimming Pool"
       ],
-      "contact": {
-        "phone": "+91 99812 34567",
-        "email": "elitestay@example.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://content.jdmagicbox.com/comp/ahmedabad/m5/079pxx79.xx79.200624210841.u7m5/catalogue/p-stay-accomodation-ellis-bridge-ahmedabad-hostels-cajc4vmg2z.jpg"
     },
     {
@@ -244,10 +234,8 @@
         "Parking",
         "24/7 Security"
       ],
-      "contact": {
-        "phone": "+91 9876543210",
-        "email": "sunrise.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://asset-cdn.stanzaliving.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1657866559/Website/CMS-Uploads/lfgi58gp04lzc5ud6pqe.jpg"
     },
     {
@@ -262,10 +250,8 @@
         "Housekeeping",
         "CCTV"
       ],
-      "contact": {
-        "phone": "+91 9823456789",
-        "email": "shree.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://imagecdn.99acres.com/media1/31553/5/631065349M-1754852311367.webp"
     },
     {
@@ -280,10 +266,8 @@
         "Power Backup",
         "WiFi"
       ],
-      "contact": {
-        "phone": "+91 9012345678",
-        "email": "greenview.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR70wwr9APcGExO_4kPywG7ehmhxZ_6e5gUtw&s"
     },
     {
@@ -298,10 +282,8 @@
         "Meal Included",
         "WiFi"
       ],
-      "contact": {
-        "phone": "+91 9087654321",
-        "email": "metrocomfort.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Jan/27/Photo_h400_w540/GR1-3320-62785_400_540.jpg"
     },
     {
@@ -316,10 +298,8 @@
         "Housekeeping",
         "Parking"
       ],
-      "contact": {
-        "phone": "+91 8899776655",
-        "email": "elitestay.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://images.nobroker.in/images/8a9ffe8489aee0280189afb6d9646ab3/8a9ffe8489aee0280189afb6d9646ab3_25764_803532_medium.jpg"
     },
     {
@@ -334,10 +314,8 @@
         "WiFi",
         "CCTV"
       ],
-      "contact": {
-        "phone": "+91 7766554433",
-        "email": "comfortnest.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://apollo.olx.in/v1/files/bjrq1mrsety12-IN/image;s=272x0"
     },
     {
@@ -352,10 +330,8 @@
         "Hot Water",
         "Housekeeping"
       ],
-      "contact": {
-        "phone": "+91 9988776655",
-        "email": "silveroak.pg@gmail.com"
-      },
+     "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://images.jdmagicbox.com/v2/comp/bangalore/k1/080pxx80.xx80.181008212120.v8k1/catalogue/rajathadri-paying-guest-for-ladies-chandapura-bangalore-paying-guest-accommodations-4ucsv6kwkq.jpg"
     },
     {
@@ -370,10 +346,8 @@
         "Meal Included",
         "Power Backup"
       ],
-      "contact": {
-        "phone": "+91 9876501234",
-        "email": "urbanhome.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://apollo.olx.in/v1/files/3p4bb6dkestg1-IN/image;s=272x0"
     },
     {
@@ -388,10 +362,8 @@
         "WiFi",
         "CCTV"
       ],
-      "contact": {
-        "phone": "+91 7766554443",
-        "email": "comfinest.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://www.shutterstock.com/image-photo/noida-india-january-26-2024-260nw-2418076223.jpg"
     },
     {
@@ -407,10 +379,8 @@
         "Power Backup",
         "RO Water"
       ],
-      "contact": {
-        "phone": "+91 9876500234",
-        "email": "ambikahome.pg@gmail.com"
-      },
+     "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3LpssehRveWvvwB3eOFB7MPbcv2n2_I69Q&s"
     },{
       "id": 26,
@@ -424,10 +394,8 @@
         "Meal Included",
         "RO Water"
       ],
-      "contact": {
-        "phone": "+91 8876500234",
-        "email": "akhandhome.pg@gmail.com"
-      },
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3LpssehRveWvvwB3eOFB7MPbcv2n2_I69Q&s"
     }
   ]

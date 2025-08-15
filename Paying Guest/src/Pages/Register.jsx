@@ -78,49 +78,63 @@ function Register() {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-200 flex items-center justify-center px-4">
-            <div className="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md transform transition-all duration-300 hover:scale-[1.02]">
-                <h2 className="text-3xl font-bold text-center text-indigo-600 mb-6">Create an Account</h2>
+        <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-200 flex items-center justify-center px-4 py-10 sm:px-6 lg:px-8">
+            <div className="bg-white/80 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-2xl w-full max-w-md sm:max-w-lg transform transition-all duration-300 hover:scale-[1.02] border border-indigo-100">
 
-                <form onSubmit={submit} className="space-y-5">
+                {/* Heading */}
+                <h2 className="text-2xl sm:text-3xl font-bold text-center text-indigo-600 mb-6">
+                    Create an Account
+                </h2>
+
+                {/* Form */}
+                <form onSubmit={submit} className="space-y-4 sm:space-y-5">
                     <ReuseInput
                         label="Enter User name"
                         type="text"
                         value={form.username}
                         name="username"
                         onchange={handchange}
-                        placeholder="e.g. jeeten" />
+                        placeholder="e.g. jeeten"
+                    />
                     <ReuseInput
-                        label="Enter email"
+                        label="Enter Email"
                         type="email"
                         value={form.Useremail}
                         name="Useremail"
                         onchange={handchange}
-                        placeholder="e.g. xyz@gmail.com" />
+                        placeholder="e.g. xyz@gmail.com"
+                    />
                     <ReuseInput
                         label="Enter Password"
                         type="password"
                         value={form.UserPassword}
                         name="UserPassword"
                         onchange={handchange}
-                        placeholder="password" />
+                        placeholder="password"
+                    />
+
+                    {/* Button */}
                     <button
                         type="submit"
-                        className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-xl transition duration-300 shadow-md hover:shadow-lg"
+                        className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-xl transition duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
                     >
                         Register
                     </button>
                 </form>
+
+                {/* Messages */}
                 {msg && (
-                    <div className="mt-5 text-center text-red-600 font-medium animate-pulse">
+                    <div className="mt-4 text-center text-red-600 font-medium animate-pulse">
                         <h1>{msg}</h1>
                     </div>
                 )}
                 {msg2 && (
-                    <div className="mt-5 text-center text-green-700 font-medium animate-pulse">
+                    <div className="mt-4 text-center text-green-700 font-medium animate-pulse">
                         <h1>{msg2}</h1>
                     </div>
                 )}
+
+                {/* Link */}
                 <p className="text-sm text-gray-600 mt-4 text-center">
                     If you already registered, go to{" "}
                     <Link
@@ -132,6 +146,7 @@ function Register() {
                 </p>
             </div>
         </div>
+
 
 
     )

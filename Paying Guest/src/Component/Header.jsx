@@ -1,12 +1,14 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router'
 import { useState } from 'react'
 import "../Css/Header.css"
+import { logout } from '../Reduxwork/AdduserSlice'
 
 function Header() {
 
   const status = useSelector(state => state.user.status)
+  const dispatch = useDispatch()
 
   const navigat = useNavigate()
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +32,12 @@ function Header() {
       path: "aboutus",
       status: !status
 
+    },
+    {
+      id: 4,
+      name: "Contact Us",
+      path: "contactus",
+      status: !status
     }
 
   ]
@@ -64,7 +72,9 @@ function Header() {
                 </button>
               ))}
               {status ? (
-                <button className="btn-primary" onClick={() => console.log("Logout")}>
+                <button className="btn-primary" onClick={() => {
+                  dispatch(logout())
+                }}>
                   Logout
                 </button>
               ) : (
@@ -124,7 +134,10 @@ function Header() {
                 </button>
               ))}
               {status ? (
-                <button className="btn-primary w-full">Logout</button>
+                <button className="btn-primary w-full" onClick={() => 
+                  dispatch(logout())
+                  // console.log("log out works")
+                }>Logout</button>
               ) : (
                 <button onClick={() => navigat("/login")} className="btn-primary w-full">
                   Login

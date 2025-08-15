@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useMemo, useState } from 'react'
 import ReactPaginate from "react-paginate";
+import { useNavigate } from 'react-router';
 
 function Pglisting() {
 
@@ -9,6 +10,7 @@ function Pglisting() {
   const [facility, setfacility] = useState("")
   const [pricerange, setpricerange] = useState([0, 50000])
   const [page, setpage] = useState(0)
+  const navigate = useNavigate()
 
   const perpage = 6
 
@@ -62,6 +64,10 @@ function Pglisting() {
       setpricerange([min, max])
     }
     setpage(0)
+  }
+
+  const godetail = (id) => {
+    navigate(`/pgdetail/${id}`)
   }
 
   return (
@@ -157,7 +163,9 @@ function Pglisting() {
                     {pg.description || "Comfortable and secure PG accommodation."}
                   </p>
                   <div className="mt-4 flex gap-3">
-                    <button className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 transition">
+                    <button
+                      onClick={() => godetail(pg.id)}
+                      className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 transition">
                       More detail
                     </button>
                   </div>

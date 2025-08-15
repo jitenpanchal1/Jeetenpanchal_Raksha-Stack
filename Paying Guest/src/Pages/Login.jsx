@@ -71,15 +71,21 @@ function Login() {
     }
 
     return (
-        <div className="login-page flex items-center justify-center relative">
+        <div className="login-page flex items-center justify-center min-h-screen relative px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-indigo-50 to-yellow-50">
 
-            <div className="absolute inset-0  bg-opacity-60 backdrop-blur-sm z-0 transition-opacity duration-700"></div>
+            {/* Background overlay for glass effect */}
+            <div className="absolute inset-0 bg-opacity-50 backdrop-blur-sm z-0 transition-opacity duration-700"></div>
 
-            <div className="relative z-10 bg-[rgba(255,255,255,0.1)] shadow-2xl rounded-3xl p-10 w-full max-w-md animate-fade-in-up transition-all duration-700">
+            {/* Card */}
+            <div className="relative z-10 bg-white/20 shadow-2xl rounded-3xl p-6 sm:p-8 lg:p-10 w-full max-w-md animate-fade-in-up transition-all duration-700 border border-white/30">
 
+                {/* Title */}
+                <h2 className="text-2xl sm:text-3xl font-bold text-center text-indigo-700 mb-6 animate-fade-in">
+                    Welcome to <span className="text-yellow-500">PG Finder 🏠</span>
+                </h2>
 
-                <h2 className="text-3xl font-bold text-center text-indigo-600 mb-6 animate-fade-in">Welcome to PG Finder 🏠</h2>
-                <form onSubmit={submit} className="space-y-6">
+                {/* Form */}
+                <form onSubmit={submit} className="space-y-5 sm:space-y-6">
                     <ReuseInput
                         label="Email"
                         type="email"
@@ -103,19 +109,25 @@ function Login() {
                     />
                 </form>
 
+                {/* Messages */}
                 <div className="mt-4 text-center text-sm">
-                    {msg && <p className="text-green-500  animate-fade-in">{msg}</p>}
+                    {msg && <p className="text-green-500 animate-fade-in">{msg}</p>}
                     {errmsg && <p className="text-red-500 animate-fade-in">{errmsg}</p>}
                 </div>
 
-                <p className="mt-6 text-sm text-center text-gray-600 animate-fade-in">
+                {/* Register Link */}
+                <p className="mt-6 text-sm text-center text-gray-700 animate-fade-in">
                     Don't have an account?{' '}
-                    <Link to="/register" className="text-indigo-700 hover:underline transition duration-300">
+                    <Link
+                        to="/register"
+                        className="text-indigo-700 font-medium hover:underline transition duration-300"
+                    >
                         Register here
                     </Link>
                 </p>
             </div>
         </div>
+
     )
 }
 
