@@ -1,14 +1,9 @@
 let USERS_BASE_URL = "";
 
-
 if (import.meta.env.DEV) {
-  // Development (localhost)
-  USERS_BASE_URL = "http://localhost:5000"; // Your backend API for users
-  
+  USERS_BASE_URL = "http://localhost:3000"; // works on your local machine only
 } else {
-  // Production (Vercel)
-  USERS_BASE_URL = "https://jeetenpanchal-raksha-stack.vercel.app/"; // Replace with your actual production URL
-
+  USERS_BASE_URL = "https://jeetenpanchal-raksha-stack.vercel.app"; // correct production URL
 }
 
 export const USERS_API = `${USERS_BASE_URL}/api/users`;
