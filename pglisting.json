@@ -1,0 +1,402 @@
+{
+  "pglistings": [
+    {
+      "id": 1,
+      "name": "Sunrise PG",
+      "location": "Ahmedabad, Gujarat",
+      "price": 7500,
+      "facilities": [
+        "Wi-Fi",
+        "AC Rooms",
+        "Laundry",
+        "24x7 Security"
+      ],
+      "contactNumber": "+91 9876543210",
+      "email": "contact@sunrisepg.com",
+      "image": "https://i.pinimg.com/originals/6e/31/a6/6e31a6ece8fb22e315e88a6306bdc1cc.jpg"
+    },
+    {
+      "id": 2,
+      "name": "GreenView PG",
+      "location": "Mumbai, Maharashtra",
+      "price": 6500,
+      "facilities": [
+        "Wi-Fi",
+        "Meals",
+        "Housekeeping",
+        "Parking"
+      ],
+      "contactNumber": "+91 9123456780",
+      "email": "info@greenviewpg.com",
+      "image": "https://images.unsplash.com/photo-1613977257363-707ba9348227"
+    },
+    {
+      "id": 3,
+      "name": "BlueHeaven PG",
+      "location": "Bangalore, Karnataka",
+      "price": 8200,
+      "facilities": [
+        "Wi-Fi",
+        "Hot Water",
+        "Gym",
+        "CCTV"
+      ],
+      "contactNumber": "+91 9988776655",
+      "email": "hello@blueheavenpg.com",
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+    },
+    {
+      "id": 4,
+      "name": "Urban Nest PG",
+      "location": "Sector 22, Chandigarh - 160022",
+      "facilities": [
+        "WiFi",
+        "Food Included",
+        "AC Rooms",
+        "CCTV Security"
+      ],
+      "pricing": 9500,
+      "image": "https://5.imimg.com/data5/RU/FR/MY-33739550/paying-guest-accomodation-for-boys.jpg",
+      "contactNumber": "+91 9911223344",
+      "email": "urbannestpg@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Blue Horizon PG",
+      "location": "Juhu Tara Road, Mumbai, Maharashtra - 400049",
+      "facilities": [
+        "WiFi",
+        "Laundry",
+        "Sea View",
+        "Housekeeping"
+      ],
+      "pricing": 12000,
+      "image": "https://content.jdmagicbox.com/v2/comp/delhi/w8/011pxx11.xx11.181225232859.m2w8/catalogue/yadav-paying-guest-dwarka-delhi-paying-guest-accommodations-95rw2w12bq.jpg",
+      "contactNumber": "+91 9988007766",
+      "email": "bluehorizonpg@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Happy Stay PG",
+      "location": "Sector 45, Gurgaon, Haryana - 122003",
+      "facilities": [
+        "WiFi",
+        "Food Included",
+        "Gym Access",
+        "Parking"
+      ],
+      "pricing": 8500,
+      "image": "https://content.jdmagicbox.com/v2/comp/delhi/g8/011pxx11.xx11.240406111525.l5g8/catalogue/shivalaya-pg-dwarka-sector-15-delhi-paying-guest-accommodations-tdtc9na26f.jpg",
+      "contactNumber": "+91 9001122334",
+      "email": "happystaypg@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Royal Comfort PG",
+      "location": "Connaught Place, New Delhi - 110001",
+      "facilities": [
+        "AC Rooms",
+        "Housekeeping",
+        "CCTV Security"
+      ],
+      "pricing": 10500,
+      "image": "https://hanureddyrealty.com/wp-content/themes/hrrindia/scripts/timthumb.php?src=https://hanureddyrealty.com/wp-content/uploads/805144_WhatsApp%20Image%202023-05-03%20at%204.21.59%20PM.jpeg&w=700&h=500",
+      "contactNumber": "+91 9871001100",
+      "email": "royalcomfortpg@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Serene Living PG",
+      "location": "Salt Lake City, Kolkata, West Bengal - 700091",
+      "facilities": [
+        "WiFi",
+        "Laundry",
+        "24x7 Water",
+        "Food Included"
+      ],
+      "pricing": 7200,
+      "image": "https://rentok-marketplace.s3.ap-south-1.amazonaws.com/MicrositeImages/8d630c91-134b-4b0b-aa3e-b9608e48568b/1670313925407.webp",
+      "contactNumber": "+91 9001234567",
+      "email": "serenelivingpg@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Green Valley PG",
+      "location": "Anna Nagar, Chennai, Tamil Nadu - 600040",
+      "facilities": [
+        "AC Rooms",
+        "WiFi",
+        "Housekeeping"
+      ],
+      "pricing": 9500,
+      "image": "https://content.jdmagicbox.com/comp/jaipur/p4/0141px141.x141.131009114705.z9p4/catalogue/juneja-girls-hostel-and-pg-malviya-nagar-jaipur-hostels-icdeopvbws.jpg",
+      "contactNumber": "+91 9876001234",
+      "email": "greenvalleypg@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "Lotus Residency PG",
+      "location": "Banjara Hills, Hyderabad, Telangana - 500034",
+      "facilities": [
+        "WiFi",
+        "Food Included",
+        "Parking"
+      ],
+      "pricing": 6800,
+      "image": "https://websiteupload.s3.ap-south-1.amazonaws.com/media/2024/07/66115bc1d6be29.webp",
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "Sunshine PG",
+      "location": "Ahmedabad, Gujarat",
+      "price": 5500,
+      "facilities": [
+        "Wi-Fi",
+        "3 Meals",
+        "Laundry",
+        "Housekeeping"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2024-04/PG%20Tech.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Comfort Stay PG",
+      "location": "Mumbai, Maharashtra",
+      "price": 7500,
+      "facilities": [
+        "Wi-Fi",
+        "AC Rooms",
+        "2 Meals",
+        "Gym Access"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://asset-cdn.stanzaliving.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1641209422/Website/CMS-Uploads/dgjaswce8wmaejvfhnua.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Green Nest PG",
+      "location": "Bangalore, Karnataka",
+      "price": 6500,
+      "facilities": [
+        "Wi-Fi",
+        "3 Meals",
+        "Power Backup",
+        "Recreation Room"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://content3.jdmagicbox.com/v2/comp/ahmedabad/h8/079pxx79.xx79.240522154411.v4h8/catalogue/the-social-sphere-navrangpura-ahmedabad-paying-guest-accommodations-for-girl-student-g9ym3sli8l.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Urban Living PG",
+      "location": "Pune, Maharashtra",
+      "price": 8000,
+      "facilities": [
+        "Wi-Fi",
+        "Laundry",
+        "Attached Bathroom",
+        "24/7 Security"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://content.jdmagicbox.com/comp/guwahati/t1/9999px361.x361.240417190102.s2t1/catalogue/xpfyt51xu41ctsd-3q8095evz8.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Elite Stay PG",
+      "location": "Hyderabad, Telangana",
+      "price": 9500,
+      "facilities": [
+        "Wi-Fi",
+        "4 Meals",
+        "AC Rooms",
+        "Swimming Pool"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://content.jdmagicbox.com/comp/ahmedabad/m5/079pxx79.xx79.200624210841.u7m5/catalogue/p-stay-accomodation-ellis-bridge-ahmedabad-hostels-cajc4vmg2z.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Sunrise PG for Boys",
+      "location": "Ahmedabad, Gujarat",
+      "price": 6500,
+      "facilities": [
+        "WiFi",
+        "Laundry",
+        "RO Water",
+        "Parking",
+        "24/7 Security"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://asset-cdn.stanzaliving.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1657866559/Website/CMS-Uploads/lfgi58gp04lzc5ud6pqe.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Shree PG for Girls",
+      "location": "Pune, Maharashtra",
+      "price": 7500,
+      "facilities": [
+        "AC Rooms",
+        "Meal Included",
+        "WiFi",
+        "Housekeeping",
+        "CCTV"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://imagecdn.99acres.com/media1/31553/5/631065349M-1754852311367.webp"
+    },
+    {
+      "id": 18,
+      "name": "Green View PG",
+      "location": "Bangalore, Karnataka",
+      "price": 8500,
+      "facilities": [
+        "Gym",
+        "Parking",
+        "Hot Water",
+        "Power Backup",
+        "WiFi"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR70wwr9APcGExO_4kPywG7ehmhxZ_6e5gUtw&s"
+    },
+    {
+      "id": 19,
+      "name": "Metro Comfort PG",
+      "location": "Hyderabad, Telangana",
+      "price": 9000,
+      "facilities": [
+        "AC Rooms",
+        "TV in Room",
+        "Laundry",
+        "Meal Included",
+        "WiFi"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Jan/27/Photo_h400_w540/GR1-3320-62785_400_540.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Elite Stay PG",
+      "location": "Delhi, NCR",
+      "price": 12000,
+      "facilities": [
+        "AC Rooms",
+        "Attached Bathroom",
+        "WiFi",
+        "Housekeeping",
+        "Parking"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://images.nobroker.in/images/8a9ffe8489aee0280189afb6d9646ab3/8a9ffe8489aee0280189afb6d9646ab3_25764_803532_medium.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Comfort Nest PG",
+      "location": "Jaipur, Rajasthan",
+      "price": 7000,
+      "facilities": [
+        "Meal Included",
+        "Laundry",
+        "RO Water",
+        "WiFi",
+        "CCTV"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://apollo.olx.in/v1/files/bjrq1mrsety12-IN/image;s=272x0"
+    },
+    {
+      "id": 22,
+      "name": "Silver Oak PG",
+      "location": "Chandigarh, Punjab",
+      "price": 8000,
+      "facilities": [
+        "AC Rooms",
+        "Parking",
+        "WiFi",
+        "Hot Water",
+        "Housekeeping"
+      ],
+     "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://images.jdmagicbox.com/v2/comp/bangalore/k1/080pxx80.xx80.181008212120.v8k1/catalogue/rajathadri-paying-guest-for-ladies-chandapura-bangalore-paying-guest-accommodations-4ucsv6kwkq.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Urban Home PG",
+      "location": "Kolkata, West Bengal",
+      "price": 7800,
+      "facilities": [
+        "CCTV",
+        "WiFi",
+        "Laundry",
+        "Meal Included",
+        "Power Backup"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://apollo.olx.in/v1/files/3p4bb6dkestg1-IN/image;s=272x0"
+    },
+    {
+      "id": 24,
+      "name": "comfi Nest PG",
+      "location": "bhivadi,rajasthan",
+      "price": 5000,
+      "facilities": [
+        "Power Backup",
+        "Laundry",
+        "RO Water",
+        "WiFi",
+        "CCTV"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://www.shutterstock.com/image-photo/noida-india-january-26-2024-260nw-2418076223.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Ambika Home PG",
+      "location": "Chandlodia ahmedabad",
+      "price": 7800,
+      "facilities": [
+        "CCTV",
+        "WiFi",
+        "Laundry",
+        "Meal Included",
+        "Power Backup",
+        "RO Water"
+      ],
+     "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3LpssehRveWvvwB3eOFB7MPbcv2n2_I69Q&s"
+    },{
+      "id": 26,
+      "name": "Akhand Home PG",
+      "location": "Chandlodia ahmedabad",
+      "price": 7800,
+      "facilities": [
+        "CCTV",
+        "WiFi",
+        "Laundry",
+        "Meal Included",
+        "RO Water"
+      ],
+      "contactNumber": "+91 9988223344",
+      "email": "lotusresidencypg@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3LpssehRveWvvwB3eOFB7MPbcv2n2_I69Q&s"
+    }
+  ]
+}
