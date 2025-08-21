@@ -4,6 +4,7 @@ import { Adduser } from '../Reduxwork/AdduserSlice'
 import axios from 'axios'
 import { Link, useNavigate } from 'react-router'
 import ReuseInput from '../ReuseInput'
+import { USERS_API } from '../api/ussser'
 
 function Register() {
 
@@ -46,7 +47,7 @@ function Register() {
             return
         }
 
-        const check = await axios.get("http://localhost:5000/Users")
+        const check = await axios.get(USERS_API)
         const read = check.data.find((exist) => {
             if (exist.Useremail === form.Useremail) {
                 setmsg("Email is already Exist")

@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useMemo, useState } from 'react'
 import ReactPaginate from "react-paginate";
 import { useNavigate } from 'react-router';
+import { PGLISTINGS_API } from '../api/baseurl';
 
 function Pglisting() {
 
@@ -16,7 +17,7 @@ function Pglisting() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/pglistings")
+      .get(PGLISTINGS_API)
       .then((pg) => setallpgs(pg.data))
       .catch((err) => console.log(err, "data not fetching from the main server"))
   })
